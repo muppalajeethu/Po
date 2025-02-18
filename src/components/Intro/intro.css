@@ -63,4 +63,37 @@
 
 
 }
+@media (max-width: 480px) {
+    #intro {
+        height: auto;
+        padding: 2rem 1rem;
+        margin-bottom: 0;
+    }
+
+    .bg {
+        height: 50vh;
+        opacity: 0.2;
+    }
+
+    .introContent {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .hello {
+        font-size: 1.2rem;
+    }
+
+    .introPara {
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+    }
+
+    .btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+
 
