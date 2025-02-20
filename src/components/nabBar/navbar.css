@@ -43,3 +43,47 @@
     margin: 1rem;
     width: 1rem;    
 }
+.active {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid; 
+}
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40,40,40,);
+    border-radius: 1rem;
+
+}
+.ListItem {
+    color: white ;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30,30,30);
+
+
+}
+@media screen and (max-width: 720px) {
+    .modMenu{
+        display: flex;
+
+    }
+    .desktopMenu{
+        display :none;
+
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+}
+    
+
