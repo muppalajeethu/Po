@@ -13,15 +13,23 @@ const Intro = () => {
           I'm <span className="introName">Jeethu</span> <br /> Frontend Designer
         </span>
         <p className="introPara">
-          I am a skilled Frontend Developer passionate about 
-          creating engaging and <br />
+          I am a skilled Frontend Developer passionate about creating engaging
+          and <br />
           user-friendly web experiences.
         </p>
-        <Link to="contact">
-          <button className="btn">
-            <img src={btnImg} className="btnImg" alt="Hire Me" /> Hire Me
-          </button>
-        </Link>
+        <div className="btnContainer">
+          <Link to="contact">
+            <button className="btn">
+              <img src={btnImg} className="btnImg" alt="Hire Me" /> Hire Me
+            </button>
+          </Link>
+          <a
+            href="/Muppala_Jeethu_Resume_A.pdf"
+            download="Muppala_Jeethu_CV.pdf"
+          >
+            <button className="btn downloadBtn">Download CV</button>
+          </a>
+        </div>
       </div>
       <img src={bg} alt="Profile" className="bg" />
     </section>
