@@ -13,17 +13,17 @@ const Contact = () => {
 
       emailjs
         .sendForm(
-          "service_tcim2v9", // Your EmailJS service ID
-          "template_54d0t0q", // Your EmailJS template ID
+          "service_tcim2v9",
+          "template_54d0t0q", 
           form.current,
-          "Ua_UmoRhv04ays9YL" // Your EmailJS Public Key
+          "Ua_UmoRhv04ays9YL" 
         )
 
         .then(
           (result) => {
             console.log("Email sent successfully!", result.text);
             alert("Email sent successfully!");
-            form.current.reset(); // Clear form after submission
+            form.current.reset(); 
           },
           (error) => {
             console.error("Failed to send email:", error);
